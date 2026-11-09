@@ -10,14 +10,8 @@ def cargar_datos():
         archivo.close()
         return datos
     else:
-        # Si no existe, creamos los datos desde cero
         datos_nuevos = {
             "estacionamientos": {
-                "E01": "ocupado",
-                "E02": "ocupado",
-                "E03": "ocupado",
-                "E04": "ocupado",
-                "E05": "ocupado"
             },
             "reservas": [],
             "incidencias": [],
